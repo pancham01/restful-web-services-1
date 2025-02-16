@@ -12,7 +12,6 @@ public class UserDao {
 
 	public void addUser(User user) {
 		System.out.println("UserDao.addUser()");
-		user.setId(1l);
 		userRepo.save(user);
 	}
 
